@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-![Alt text for the image](/img/L101745.jpg "Title Text")
+![Alt text for the image](L101745.jpg "Title Text")
 
 
 A blog for planning our next trip to Japan.
