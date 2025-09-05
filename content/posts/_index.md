@@ -3,4 +3,4 @@ title: "Posts"
 description: "All posts"
 ---
 
-Welcome to the halls of uselessness and the joys of idleness.
+Welcome to the hall of uselessness and the joy of idleness.

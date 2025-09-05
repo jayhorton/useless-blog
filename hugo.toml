@@ -1,6 +1,6 @@
 baseURL = "https://jayhorton.github.io/useless-blog/"
 languageCode = 'en-us'
-title = 'Japan by Shibui'
+title = 'The Hall of Uselessness'
 theme = "shibui"
 
 [params]
