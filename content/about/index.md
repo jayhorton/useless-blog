@@ -3,6 +3,12 @@ title: "About"
 toc: false
 ---
 
+<style>
+  /* hide Hugo’s ToC block just on this page */
+  nav#TableOfContents, .toc { display: none; }
+</style>
+
+
 ![Alt text for the image](L101745.jpg "Title Text")
 
 
