@@ -1,23 +1,57 @@
 name: Deploy Hugo site
-
 on:
   push:
     branches: [ "main" ]
-
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           submodules: recursive
-      - uses: peaceiris/actions-hugo@v3
+          fetch-depth: 0
+
+      - name: Sanity check workspace
+        run: |
+          pwd
+          ls -la
+          test -f hugo.toml && echo "Found hugo.toml ✅" || (echo "Missing hugo.toml ❌" && exit 1)
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
+          # Pin to a recent version that knows about 'hugo.toml'
+          hugo-version: '0.148.2'
           extended: true
-      - run: hugo --minify
-      - uses: actions/upload-pages-artifact@v3
+
+      - name: Show Hugo env
+        run: |
+          hugo version
+          hugo env
+
+      - name: Build
+        rrun: hugo --minify --config hugo.yml
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
-      - uses: actions/deploy-pages@v4
 
+  deploy-pages:
+    needs: deploy
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
