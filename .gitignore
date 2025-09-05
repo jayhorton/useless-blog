@@ -1,0 +1,16 @@
+# OS cruft
+.DS_Store
+.github/.DS_Store
+themes/.DS_Store
+
+# Hugo build outputs
+public/
+resources/
+.hugo_build.lock
+
+# SSH keys (never commit private keys)
+shibui_blog_site*
+*.pem
+*.key
+id_ed25519*
+id_rsa*
