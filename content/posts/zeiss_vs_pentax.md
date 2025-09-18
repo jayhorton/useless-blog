@@ -3,7 +3,7 @@ date = '2025-09-17'
 showthedate = false
 draft = false
 title = 'Zeiss versus Pentax K-Mount Lenses'
-categories = ["Pentax Lenses"]
+categories = ["Pentax Lenses", "Zeiss Lenses"]
 +++
 
 # Carl Zeiss Vario-Sonnar 35–70mm f/3.5 vs Pentax Primes and Pentax-A 35–105mm f/3.5
