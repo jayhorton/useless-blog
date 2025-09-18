@@ -138,7 +138,7 @@ Focus is on **optical quality, handling, and suitability** for use today on film
 
 ---
 
-## Zooms vs Primes (28/35/50/85/135mm)
+## 🔍 Zooms vs Primes (28/35/50/85/135mm)
 
 You already have a strong prime set: **28mm, 35mm, 50mm, 85mm, 135mm (SMC Pentax)**.  
 Here’s how the zooms overlap:
@@ -148,4 +148,19 @@ Here’s how the zooms overlap:
 - **A 35–105mm** → Effectively covers 35/50/85 primes; closest to a “prime replacement.”  
 - **M 75–150mm** → Bridges 85mm + 135mm primes; compact alternative to carrying both.  
 - **A 70–210mm** → Extends beyond your 135mm, complements but does not replace it.  
-- **40–80mm** → Awkward range and weaker optics; not a tru
+- **40–80mm** → Awkward range and weaker optics; not a true substitute for primes.  
+- **Zeiss 35–70mm** → Could replace 35/50mm primes in practice, with premium image quality.  
+
+---
+
+## 📌 Summary
+
+- **Best All-Rounder:** Pentax-A 35–105mm f/3.5.  
+- **Premium Choice:** Carl Zeiss Vario-Sonnar 35–70mm f/3.5.  
+- **Compact Gem:** Pentax-M 75–150mm f/4.  
+- **Practical Everyday:** Pentax-A 35–70mm f/4.  
+- **Travel Light:** Pentax 28–50mm f/3.5–4.5.  
+- **For Collectors:** Pentax 40–80mm f/2.8–4 (quirky, characterful).  
+
+👉 Pentax primes (28/35/50/85/135) remain smaller, faster, and generally sharper.  
+But certain zooms — especially the **A 35–105mm, M 75–150mm, and Zeiss 35–70mm** — are strong enough to rival or replace primes in real-world shooting on film bodies like the **ME Super, KM, K2, MX, or LX**.
