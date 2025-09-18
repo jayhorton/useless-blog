@@ -3,4 +3,4 @@ title: "Posts"
 description: "All posts"
 ---
 
-Welcome to the hall of uselessness and the joy of idleness.
+Welcome to Jay's photo blog, where all topics on photography are examined.

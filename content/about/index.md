@@ -12,7 +12,7 @@ toc: false
 ![Alt text for the image](L101745.jpg "Title Text")
 
 
-A blog for planning our next trip to Japan.
+A blog for Photography, gear and practice.
 
 **About the Shibui Aesthetic**
 
