@@ -2,7 +2,7 @@
 date = '2025-09-17'
 showthedate = false
 draft = false
-title = 'Pentax 100mm Prime Lenses'
+title = 'Pentax 100mm Prime Lens'
 categories = ["Pentax Lenses"]
 +++
 
